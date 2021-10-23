@@ -10,5 +10,5 @@ export const ProtectedRoute: React.FC<Props> = ({ isAuth, ...routeProps }) => {
     return <Route {...routeProps} />
   }
 
-  return <Redirect to="mtt/login" />
+  return <Redirect to="/login" />
 }
