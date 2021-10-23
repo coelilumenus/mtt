@@ -28,7 +28,7 @@ export const LoginPage: React.FC<Props> = ({ setIsAuth, user }) => {
         break;
       default:
         setIsAuth(true)
-        history.push("/users")
+        history.push("/mtt/users")
         break;
     }
   }
