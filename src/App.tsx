@@ -11,9 +11,9 @@ function App() {
 
   return <Router>
     <Switch>
-      <Route path="mtt/login" component={() => <LoginPage setIsAuth={setIsAuth} user={user} />} />
+      <Route path="/mtt/login" component={() => <LoginPage setIsAuth={setIsAuth} user={user} />} />
       <ProtectedRoute isAuth={isAuth} path="/mtt/users" component={() => <UserPage setIsAuth={setIsAuth} user={user} />}  />
-      <ProtectedRoute isAuth={isAuth} path="mtt/" component={() => <UserPage setIsAuth={setIsAuth} user={user} />} exact />
+      <ProtectedRoute isAuth={isAuth} path="/mtt/" component={() => <UserPage setIsAuth={setIsAuth} user={user} />} exact />
     </Switch>
   </Router>
 }
