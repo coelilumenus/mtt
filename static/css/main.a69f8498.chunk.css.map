@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,SACE,cACF,CAEA,SACE,UAAW,CACX,oBACF","file":"main.a69f8498.chunk.css","sourcesContent":[".pointer {\r\n  cursor: pointer;\r\n}\r\n\r\n.no-icon {\r\n  width: 20px;\r\n  display: inline-block;\r\n}"]}
