@@ -6,10 +6,6 @@ import { Provider } from 'react-redux'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './index.css'
 
-store.subscribe(() => {
-  console.log(store.getState())
-})
-
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
