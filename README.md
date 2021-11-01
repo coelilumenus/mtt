@@ -5,5 +5,5 @@ React SPA.
  4. Reactstrap, bootstrap
  5. Redux
  6. Localstorage as database
- 7. 
+ 
  [Link to Github-Pages.](https://coelilumenus.github.io/mtt/)
