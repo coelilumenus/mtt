@@ -1,21 +1,14 @@
-import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import { LoginPage } from './pages/LoginPage'
-import { UserPage } from './pages/UserPage'
-import { ProtectedRoute } from './utils/ProtectedRoute';
-import { User } from './utils/User';
+import React from "react"
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
+import { Login } from "./pages/Login"
+import { Profile } from "./pages/Profile"
+import { ProtectedRoute } from "./utils/ProtectedRoute"
 
-function App() {
-  const [isAuth, setIsAuth] = useState(false)
-  const user = new User()
-
+export const App: React.FC = () => {
   return <Router>
     <Switch>
-      <Route path="/login" component={() => <LoginPage setIsAuth={setIsAuth} user={user} />} />
-      <ProtectedRoute isAuth={isAuth} path="/users" component={() => <UserPage setIsAuth={setIsAuth} user={user} />}  />
-      <ProtectedRoute isAuth={isAuth} path="/" component={() => <UserPage setIsAuth={setIsAuth} user={user} />} exact />
+      <Route path="/mtt/login" component={() => <Login />} />
+      <ProtectedRoute path="/mtt/profile" component={() => <Profile />} />
     </Switch>
   </Router>
 }
-
-export default App;

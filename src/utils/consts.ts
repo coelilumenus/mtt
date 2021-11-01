@@ -1,5 +1,0 @@
-export const valid = 'VALID'
-export const newUser = 'NEWUSER'
-export const invalid = 'INVALID'
-export const invalidLogin = 'INVALID_LOGIN'
-export const invalidPassword = 'INVALID_PASSWORD'

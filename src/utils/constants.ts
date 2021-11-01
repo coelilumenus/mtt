@@ -1,0 +1,13 @@
+export const $auth = 'auth'
+export const $logout = 'logout'
+export const $getState = 'getState'
+export const $setMax = 'setMax'
+export const $incr = 'incr'
+export const $decr = 'decr'
+export const $updateLength = 'updateLength'
+export const $ModalAdd = 'ModalAdd'
+export const $ModalName = 'ModalName'
+export const $ModalEdit = 'ModalEdit'
+export const $ModalDelete = 'ModalDelete'
+export const $modalDestroy = 'modalDestroy'
+export const $itemsOnPage = 5

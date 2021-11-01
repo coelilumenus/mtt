@@ -2,23 +2,27 @@
   "name": "mtt",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://coelilumenus.github.io/mtt",
+  "homepage": "https://coelilumenus.github.io/mtt/login",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
-    "@types/jest": "^26.0.24",
-    "@types/node": "^12.20.33",
-    "@types/react": "^17.0.30",
-    "@types/react-dom": "^17.0.9",
+    "@reduxjs/toolkit": "^1.6.2",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@types/jest": "^24.9.1",
+    "@types/node": "^12.20.34",
+    "@types/react": "^16.14.19",
+    "@types/react-dom": "^16.9.14",
+    "@types/react-redux": "^7.1.20",
     "@types/react-router-dom": "^5.3.1",
+    "bootstrap": "^5.1.3",
     "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-redux": "^7.2.5",
     "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
-    "typescript": "^4.4.4",
-    "web-vitals": "^1.1.2"
+    "reactstrap": "^8.10.0",
+    "typescript": "^4.1.6"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -28,10 +32,7 @@
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": "react-app"
   },
   "browserslist": {
     "production": [
